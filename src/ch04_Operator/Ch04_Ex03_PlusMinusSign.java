@@ -1,4 +1,4 @@
-package ch04_operator;
+package ch04_Operator;
 
 public class Ch04_Ex03_PlusMinusSign {
     public static void main(String[] args) {

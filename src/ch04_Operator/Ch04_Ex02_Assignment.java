@@ -1,4 +1,4 @@
-package ch04_operator;
+package ch04_Operator;
 
 public class Ch04_Ex02_Assignment {
     public static void main(String[] args) {

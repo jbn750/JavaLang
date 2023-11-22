@@ -19,6 +19,7 @@ public class Ch05_Ex02_Scanner1 {
         System.out.println("숫자를 3 입력하고 엔터를 입력하세요.");
         int num6 = sc.nextInt();
 
+
         System.out.printf("%d %d %d %d %d %d", num1, num2, num3, num4, num5, num6);
     }
 }

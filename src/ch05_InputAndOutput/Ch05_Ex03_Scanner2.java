@@ -13,7 +13,7 @@ public class Ch05_Ex03_Scanner2 {
         String name2 = sc.next(); //
         String name3 = sc.next();
         String name4 = sc.next();
-
+        
         System.out.printf("[%s] [%s] [%s] [%s]", name1, name2, name3, name4);
 
     }

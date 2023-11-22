@@ -4,6 +4,7 @@ import java.sql.SQLOutput;
 
 public class Ch05_Ex01_printf {
     public static void main(String[] args) {
+
         String name = "Lim Jung Bin";
         int age = 20;
         double height = 173.5;

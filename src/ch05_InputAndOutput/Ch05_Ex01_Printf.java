@@ -1,8 +1,6 @@
 package ch05_InputAndOutput;
 
-import java.sql.SQLOutput;
-
-public class Ch05_Ex01_printf {
+public class Ch05_Ex01_Printf {
     public static void main(String[] args) {
 
         String name = "Lim Jung Bin";

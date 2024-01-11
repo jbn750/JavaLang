@@ -218,3 +218,62 @@ class B exntends A implements X, Y, Z {
 <br>
 <br>
 
+## 6. 다형성
+> - 상속한 클래스의 객체는 슈퍼 클래스로도 서브 클래스로도 다룰 수 있다.
+> - 이렇게 하나의 객체와 메서드가 많은 형태를 가지고 있는 것을 다형성이라고 한다.
+
+![img_11.png](img_11.png)
+
+> 실제 객체는 Sub 클래스의 설계도를 이용해 힙에 만들어져 있지만 스택에 만들어진 변수는 Super의 설계도를 이용한다.
+
+![img_12.png](img_12.png)
+
+> - 실제 객체는 Super 클래스의 설계도를 이용해 힙에 만들어져 있다.
+> - 상위 클래스의 객체를 하위 클래스형의 변수로 대입할 수는 없다.
+
+<br>
+
+### 예제: Ex06_Polymorphism1
+```
+Calc myCalc2 = new MyCalc();
+```
+> - 다형성을 이용하여 객체를 만들고 변수에 참조 값을 대입시켜줄 수 있다.
+> - 상위 클래스의 설계도로는 하위 클래스의 모든 것을 알 수 없기에 사용 불가능한 멤버가 생기게 된다.
+
+<br>
+
+### 예제: Ex07_Polymorphism2
+> 클래스도 자동 형변환이 이루어진다.
+
+<br>
+<br>
+
+## 7. instance of 연산자
+> instance of는 객체가 지정한 클래스형의 객체인지를 조사하는 연산자이다.
+
+```
+boolean bCheck = obj instance of MyClass;
+            클래스형 변수         클래스명
+```
+> instance of는 지정한 인터페이스를 오브젝트가 구현하고 있는 지를 조사할 수도 있다.
+```
+boolean bCheck = obj instance of MyInterface;
+            클래스형 변수         인터페이스명
+```
+
+### 예제: Ex08_Instanceof
+
+### 예제: Ex09_Polymorphism3
+```
+public static void animalChoose(Animal obj) {
+        if (obj instanceof Tiger){
+            Tiger tiger = (Tiger) obj;
+            tiger.doMove();
+        }else {
+            Lion lion = (Lion) obj;
+            lion.doMove();
+        }
+    }
+```
+> - 매개변수로 어떤 형태의 객체를 참조하는 변수가 들어올지 알 수 없기 때문에 아예 상위 클래스로 지정해둔다.
+> - 이러면 하위 클래스를 매개변수로 넘겨도 자동으로 형변환되서 매개변수로 들어온다.

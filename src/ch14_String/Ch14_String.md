@@ -130,12 +130,16 @@ str.charAt(i)
 > - str 문자열에서 i번째 문자를 가져온다.
 > - 반환 타입은 char
 
+<br>
+
 ### 4.5 기본 자료형의 값을 문자열로 바꾸기
 
 ```
 String.valueOf(b)
 ```
 > boolean, char, double, float, int 등 자료형을 문자열로 바꿀 수 있다.
+
+<br>
 
 ### 4.6 자주 사용되는 String 클래스의 메서드들
 

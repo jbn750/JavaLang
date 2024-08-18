@@ -250,3 +250,9 @@ public double nextDouble() // 0.0 이상 1.0 미만의 double형 난수 반환
 ### 6.2 객체 저장 배열의 정렬
 
 #### 예제: Ex16_ArrayObjSort
+
+<br>
+<hr>
+
+## 출처
+이재환의 자바 프로그래밍 입문

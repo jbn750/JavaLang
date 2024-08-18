@@ -251,3 +251,9 @@ StringTokenizer st = new StringTokenizer("동해물과,백두산이,마르고,�
 </table>
 
 ### 예제: Ex09_StringTokenizer
+
+<br>
+<hr>
+
+## 출처
+이재환의 자바 프로그래밍 입문

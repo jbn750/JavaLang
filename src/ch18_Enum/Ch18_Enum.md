@@ -117,3 +117,9 @@ public static void main(String[] args)
 
 #### 예제: Ex06_SuppressWarnings
 > @Deprecated된 메서드를 사용하면 경고 메세지를 내라고 한 것이기 때문에 사용하는 곳마다 @SuppressWarnings를 사용해주어야 한다.
+
+<br>
+<hr>
+
+## 출처
+이재환의 자바 프로그래밍 입문

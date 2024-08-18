@@ -216,3 +216,8 @@ The Operator >= is undefined for the argument type(s) String, int
 > 1. "3 >= 2 : " + 3 >= 2 <br> 연산자의 우선순위에 의해 +가 먼저 연산돼서 두 문자열이 합쳐진다.
 > 2. "3 >= 2 : 3" >= 2 <br> 글자와 숫자라 비교할 수 없어서 컴파일 에러가 난다.
 
+<br>
+<hr>
+
+## 출처
+이재환의 자바 프로그래밍 입문

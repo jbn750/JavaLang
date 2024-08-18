@@ -190,3 +190,9 @@ public void setAge(int age){ // 세터
 ![img_2.png](img_2.png)
 
 > - 멤버 변수임을 구분하기 위해 this를 사용한다.
+
+<br>
+<hr>
+
+## 출처
+이재환의 자바 프로그래밍 입문

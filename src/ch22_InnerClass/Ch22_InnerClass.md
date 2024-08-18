@@ -159,3 +159,9 @@ str -> str.length() // 문자열의 길이 반환함
 > - @FunctionalInterface
 
 ### 예제: Ex11_Functional
+
+<br>
+<hr>
+
+## 출처
+이재환의 자바 프로그래밍 입문

@@ -95,3 +95,9 @@ Ch11_MyCalculator calc1 = new Ch11_MyCalculator();
 import java.lang.System; // 자동 삽입
 import java.util.Scanner; // 수동 삽입
 ```
+
+<br>
+<hr>
+
+## 출처
+이재환의 자바 프로그래밍 입문
